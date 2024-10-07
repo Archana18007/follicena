@@ -1,0 +1,275 @@
+.site-filters {
+    margin-bottom: 30px;
+}
+.site-filters ul {
+    margin: 0;
+    list-style: none;
+}
+.site-filters li {
+    display: inline;
+    padding: 0;
+}
+.site-filters li.btn {
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    outline: 0 !important;
+}
+.site-filters li input {
+    display: none;
+}
+.site-filters a {
+    margin: 0 15px 5px 0;
+}
+.site-filters .active > [class*="site-button"] {
+    color: #fff;
+    background-color: #efbb20;
+}
+.site-filters.center {
+    text-align: center;
+}
+.site-filters.center ul {
+    display: inline-block;
+    margin: auto;
+}
+.site-filters.center [class*="site-button"] {
+    display: inline-block;
+    margin: 0 5px 10px;
+    text-transform: capitalize;
+}
+@media only screen and (max-width: 480px) {
+    .site-filters.center [class*="site-button"] {
+        margin: 0 1px 5px;
+        padding: 5px 10px;
+        font-size: 12px;
+    }
+}
+
+
+.dez-gallery-listing {
+    list-style: none;
+    margin-left: 221px;
+}
+.dez-gallery-box {
+    margin-bottom: 30px;
+}
+.blog-page-content .dez-gallery-box {
+    margin-bottom: 20px;
+}
+
+.dez-img-effect {
+    position: relative;
+    overflow: hidden;
+    display: block;
+}
+.dez-img-effect img {
+    display: block;
+    margin: 0;
+    width: 100%;
+    height: auto;
+    box-shadow: 0 0 0 transparent;
+    -webkit-box-shadow: 0 0 0 transparent;
+    -moz-box-shadow: 0 0 0 transparent;
+    transition: all 0.25s;
+    -moz-transition: all 0.25s;
+    -webkit-transition: all 0.25s;
+    -o-transition: all 0.25s;
+}
+.dez-img-effect.opacity img:hover {
+    opacity: 0.8;
+    -moz-opacity: 0.8;
+    -webkit-opacity: 0.8;
+}
+.dez-img-effect.zoom-slow img {
+    transition: all 10s;
+    -moz-transition: all 10s;
+    -webkit-transition: all 10s;
+    -o-transition: all 10s;
+}
+.dez-img-effect.zoom-slow:hover img {
+    -moz-transform: scale(2);
+    -webkit-transform: scale(2);
+    -o-transform: scale(2);
+    -ms-transform: scale(2);
+    transform: scale(2);
+}
+.dez-img-effect.zoom:hover img {
+    -moz-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    -o-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    transform: scale(1.5);
+}
+.dez-img-effect.shrink:hover img {
+    transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    -webkit-transform: scale(0.8);
+    -o-transform: scale(0.8);
+    -moz-transform: scale(0.8);
+}
+.dez-img-effect.side-pan:hover img {
+    margin-left: -11%;
+    transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+}
+.dez-img-effect.vertical-pan:hover img {
+    margin-top: -10%;
+    transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+}
+.dez-img-effect.fade-in {
+    background: #000;
+}
+.dez-img-effect.fade-in img {
+    opacity: 0.65;
+    -moz-opacity: 0.65;
+    -webkit-opacity: 0.65;
+}
+.dez-img-effect.fade-in:hover img {
+    opacity: 1;
+    -moz-opacity: 1;
+    -webkit-opacity: 1;
+}
+.dez-img-effect.fade-out {
+    background: #000;
+}
+.dez-img-effect.fade-out:hover img {
+    opacity: 0.7;
+    -moz-opacity: 0.7;
+    -webkit-opacity: 0.7;
+}
+.dez-img-effect.rotate:hover img {
+    -moz-transform: scale(1.5) rotate(-20deg);
+    -webkit-transform: scale(1.5) rotate(-20deg);
+    -o-transform: scale(1.5) rotate(-20deg);
+    -ms-transform: scale(1.5) rotate(-20deg);
+    transform: scale(1.5) rotate(-20deg);
+}
+.dez-img-effect.sepia img {
+    -webkit-filter: sepia(100%);
+    filter: sepia(100%);
+}
+.algo-image-hover.sepia:hover img {
+    -webkit-filter: sepia(0);
+    filter: sepia(0);
+}
+.dez-img-effect.blurr img {
+    transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -webkit-transition: all 0.2s;
+    -o-transition: all 0.2s;
+}
+.dez-img-effect.blurr:hover img {
+    filter: blur(3px);
+    -webkit-filter: blur(3px);
+    -moz-filter: blur(3px);
+    -o-filter: blur(3px);
+    -ms-filter: blur(3px);
+}
+.dez-img-effect.blurr-invert img {
+    transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -webkit-transition: all 0.2s;
+    -o-transition: all 0.2s;
+}
+.dez-img-effect.blurr-invert img {
+    filter: blur(3px);
+    -webkit-filter: blur(3px);
+    -moz-filter: blur(3px);
+    -o-filter: blur(3px);
+    -ms-filter: blur(3px);
+}
+.dez-img-effect.blurr-invert:hover img {
+    filter: blur(0);
+    -webkit-filter: blur(0);
+    -moz-filter: blur(0);
+    -o-filter: blur(0);
+    -ms-filter: blur(0);
+}
+.dez-img-effect.off-color img {
+    filter: grayscale(0);
+    -webkit-filter: grayscale(0);
+    -moz-filter: grayscale(0);
+    -o-filter: grayscale(0);
+    -ms-filter: grayscale(0);
+}
+.dez-img-effect.off-color:hover img {
+    filter: grayscale(1);
+    -webkit-filter: grayscale(1);
+    -moz-filter: grayscale(1);
+    -o-filter: grayscale(1);
+    -ms-filter: grayscale(1);
+}
+.dez-img-effect.on-color img {
+    filter: grayscale(1);
+    -webkit-filter: grayscale(1);
+    -moz-filter: grayscale(1);
+    -o-filter: grayscale(1);
+    -ms-filter: grayscale(1);
+}
+.dez-img-effect.on-color:hover img {
+    filter: grayscale(0);
+    -webkit-filter: grayscale(0);
+    -moz-filter: grayscale(0);
+    -o-filter: grayscale(0);
+    -ms-filter: grayscale(0);
+}
+.dez-gallery-box {
+    margin-bottom: 30px;
+}
+.blog-page-content .dez-gallery-box {
+    margin-bottom: 20px;
+}
+.dez-img-effect.zoom-slow img {
+    transition: all 10s;
+    -moz-transition: all 10s;
+    -webkit-transition: all 10s;
+    -o-transition: all 10s;
+}
+.dez-img-effect.zoom-slow:hover img {
+    -moz-transform: scale(2);
+    -webkit-transform: scale(2);
+    -o-transform: scale(2);
+    -ms-transform: scale(2);
+    transform: scale(2);
+}
+.dez-img-effect.zoom:hover img {
+    -moz-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    -o-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    transform: scale(1.5);
+}
+.overlay-bx {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    z-index: 10;
+    opacity: 0;
+    visibility: visible;
+}
+.overlay-icon {
+    list-style: none;
+    width: 160px;
+    height: 40px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin: -20px -75px;
+}
+.overlay-icon a {
+    display: inline-block;
+    padding: 0;
+    margin: 0 2px;
+}
+.overlay-icon a i {
+    background-color: #fff;
+}
